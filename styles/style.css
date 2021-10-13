@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    /* border: 2px solid black;  */
+}
+.header-div{
+    max-width: 1375px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.header-search-box{
+    max-width: 446px;
+    width: 100%;
+    height: 56px;
+    margin-left: 25px;
+    background-color: #F8F8F8;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+.header-search-box input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    flex: 1;
+}
+.header-search-box img{
+    padding-right: 20px;
+}
+.header-gopro span{
+    color: #FF2288;
+    font-size: 14px;
+}
+.header-upload span{
+    color: #fff;
+    background-color: #FF2288;
+    border-radius: 12px;
+    padding: 18px 38px;
+    /* border: 2px solid black; */
+}
+/* HEADER FINISH!!! */
+/* ASIDE START!!! */
+aside{
+    float: left;
+    max-width: 319px;
+    width: 100%;
+    background-color: #222222;
+}
+.aside-box{
+    max-width: 259px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 42px auto;
+}
+.aside-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.aside-content{
+    /* border: 2px solid blue; */
+    max-width: 205px;
+    width: 100%;
+    margin: 106px auto;
+}
+.aside-nav-options ul a li{
+    color: #fff;
+    list-style-type: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.aside-nav-options ul a{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 51px;
+}
+.aside-home{
+    background-color: #FF2288;
+    border-radius: 12px;
+    padding:20px 0 20px 0;
+}
+.aside-following{
+    margin-top: 87px;
+    margin-bottom: 31px;
+    font-size: 12px;
+    color: #FFFFFF;
+    /* border: 2px solid red; */
+}
+.aside-nav-members ul a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.aside-nav-members ul a li{
+    color: #fff;
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.aside-load-more{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 50px;
+}
