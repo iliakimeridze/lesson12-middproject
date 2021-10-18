@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.whole-container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+/* ASIDE START!!! */
+aside{
+    max-width: 319px;
+    width: 100%;
+    max-height: 1080px;
+    height: 100%;
+    background-color: #222222;
+}
+.aside-box{
+    max-width: 259px;
+    width: 100%;
+    margin: 42px auto;
+}
+.aside-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.aside-content{
+    max-width: 205px;
+    width: 100%;
+    margin: 106px auto;
+}
+.aside-nav-options ul a li{
+    color: #fff;
+    list-style-type: none;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: Avenir Medium;
+}
+.aside-nav-options ul a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+    padding:20px 0 20px 0;
+}
+.aside-nav-options ul a:hover{
+    background-color: #FF2288;
+    border-radius: 12px;
+}
+.aside-following{
+    margin-top: 87px;
+    margin-bottom: 31px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: Avenir Heavy;
+}
+.aside-nav-members ul a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.aside-nav-members ul a li{
+    color: #fff;
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: Avenir Medium;
+}
+.aside-load-more{
+    margin-top: 50px;
+}
+.aside-load-more span a{
+    color: #fff;
+    font-size: 14px;
+    font-family: Avenir Heavy;
+}
+/* ASIDE END!!! */
+/* HEADER START!!! */
+.all-inn{
+    /* margin: 0 auto; */
+    max-width: 1601px;
+    width: 100%;
+    margin-left: 25px;
+}
+.main-header{
+    max-width: 1601px;
+    width: 100%;
+
+}
+.header-div{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-search-box{
+    max-width: 446px;
+    width: 100%;
+    height: 56px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+.header-search-box input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    flex: 1;
+}
+.header-search-box img{
+    padding-right: 20px;
+}
+.header-content{
+    max-width: 410px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-gopro span a{
+    color: #FF2288;
+    font-size: 14px;
+    font-family: Avenir Heavy;
+}
+.header-upload span{
+    color: #fff;
+    background-color: #FF2288;
+    border-radius: 12px;
+    padding: 18px 38px;
+    font-size: 14px;
+    font-family: Avenir Heavy;
+}
+
+/* HEADER FINISH!!! */
+/* SECTION-OFFERS START!!! */
+.section-box{
+    max-width: 1231px;
+    width: 100%;
+    margin: 70px auto;
+}
+.section-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.section-nav ul a li{
+    font-size: 16px;
+    font-family:Avenir Book ;
+}
+.section-all{
+    /* padding: 20px 19px; */
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+.section-filter a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Avenir Medium;
+}
+.section-filter{
+    padding: 17px 25px;
+    background-color: #D8D8D8;
+    border-radius: 12px;
+}
+.section-filter span{
+    margin-left: 15px;
+}
+.section-images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+.section-img2{
+    position: relative;
+}
+.section-img1 span{
+    font-size: 18px;
+    padding-left: 25px;
+    font-family: Avenir Medium;
+}
+.section-img2{
+    display: flex;
+    flex-direction: column;
+    max-width: 305px;
+}
+.section-img2 span{
+    font-size: 18px;
+    padding-left: 25px;
+    font-family: Avenir Medium;
+}
+.load-more{
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+}
+.load-more span{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding: 17px 106px;
+    font-family: Avenir Heavy;
+}
+/* SECTION END!!! */
+/* DESIGNERS SECTION START!!! */
+.top-designers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-designers h2{
+    font-size: 32px;
+    font-family: Avenir Heavy;
+}
+.top-designers span{
+    font-size: 14px;
+    opacity: 30%;
+    font-family: Avenir Heavy;
+}
+.designers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 54px auto;
+}
+.designer-1{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+.name{
+    padding-top: 15px;
+    font-size: 16px;
+    font-family: Avenir Medium;
+}
+.nationality{
+    padding-top: 10px;
+    font-family:Avenir Book ;
+    font-size: 12px;
+    opacity: 60%;
+}
+.status-following{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    margin-top: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 13px 0 13px 0;   
+    font-family: Avenir Heavy;
+}
+.status-follow{
+    padding: 13px 0 13px 0;
+    background-color: #D8D8D8;
+    border-radius: 12px;
+    margin-top: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Avenir Heavy;
+}
+/* DESIGNERS SECTION END!!! */
+/* FOOTER SECTION START!!! */
+.footer-section{
+    margin: 130px auto;
+    max-width: 1231px;
+    width: 100%;
+    font-family: Avenir Heavy;
+}
+.footer-list{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23% 8%;
+    grid-auto-rows: auto;
+    grid-gap: 30px;
+}
+.footerbox{
+    display: flex;
+    flex-direction: column;
+}
+.footerbox span{
+    font-size: 16px;
+    padding-top: 20px;
+}
+.footer-logos{
+    display: flex;
+    padding-top: 150px;
+}
+.footer-logos img{
+    margin-right: 20px;
+}
+/* FOOTER SECTION END!!! */
+/* PRODUCT.HTML STYLES!!! */
+.header-avatar-2 img{
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    padding: 16px;
+}
+.content-table{
+    max-width: 1231px;
+    width: 100%;
+    margin: 100px auto;
+    border-collapse: collapse;
+    font-family: Avenir Heavy;
+}
+.content-table thead tr{
+    text-align: left;
+    font-size: 18px;
+}
+.content-table td{
+    padding: 30px 0 30px 0;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    border-radius: 2px;
+    color: #AFAFAF;
+}
+.content-table tbody tr:hover{
+    color: #222222;
+    background-color: #F2F2F2;
+}
+.content-table tbody tr:nth-of-type(4) {
+    background-color: #F2F2F2;
+    color: #222222;
+}
+.content-table tbody tr:nth-of-type(7) {
+    color: #FF2288;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+@media (max-width: 1280px) {
+    aside{
+        display: none;
+    }
+}
+    @media (max-width:600px) {
+        .section-nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .header-div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .designers-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+   
+    
